@@ -16,3 +16,36 @@ body{
     min-width: 9rem;
     text-transform: uppercase;
 }
+
+.nav-link{
+    display: block;
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    font-size: .9rem;
+    transition: all .5s ease;
+    border-bottom: 1px dotted rgba(255, 255, 255, .2);
+    color: #586165;
+    font-weight: 600;
+}
+
+.nav-link:hover{
+    color: #63c6ae;
+}
+
+.navbar-nav{
+    background-color: #242a2c;
+    text-align: center;
+}
+
+@media screen and (min-width: 992px){
+    .navbar-nav{
+        background-color: transparent;
+        margin-left: 3rem;
+    }
+    
+    .nav-link{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
